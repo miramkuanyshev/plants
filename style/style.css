@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Inika-Regular';
+    src: url(../fonts/Inika-Regular.ttf);
+}
+
+body {
+    font-family: 'Inika-Regular';
+    background: #EDF2EC;
+}
+
+.header {
+    padding: 46px 46px;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 112px;
+}
+
+.header-title__text {
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0px;
+}
+
+.header-title__logo {
+    height: 20px;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.header-nav {
+    display: flex;
+    margin-right: 112px;
+}
+
+.header-nav__item {
+    margin-left: 46px;
+}
+
+.welcome {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.welcome-img {
+    width: 80%;
+    padding: 62px 103px 62px 112px;
+}
+
+.welcome-description__title {
+    font-family: 'Inika-Bold';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.welcome-description {
+    padding: 98px 103px 0px 136px;
+}
+
+.welcome-description__green {
+    color: #499A18;
+}
+
+.welcome-description__text{
+    margin-top: 42px;
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.welcome-description__button {
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    padding: 14px 27px;
+    text-decoration: none;
+    outline: none;
+    margin-top: 50px;
+}
