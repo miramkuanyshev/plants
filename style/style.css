@@ -107,7 +107,6 @@ li, a {
 
 .about {
     background: #FFFFFF;
-    width: 101%;
 }
 
 .about-container {
@@ -216,6 +215,7 @@ li, a {
 
 .prices {    
     background: #FFFFFF;
+    width: 100%;
 }
 
 .prices-container {
@@ -224,7 +224,7 @@ li, a {
 }
 
 .prices-header {
-    padding: 0px 109px;
+    padding: 40px 109px 0px 109px;
     display: flex;
     justify-content: space-between;
 }
@@ -352,6 +352,7 @@ li, a {
     display: block;
     float: right;
     margin-top: 40px;
+    margin-bottom: 115px;
 }
 
 .rate-qestion__line {
@@ -462,4 +463,48 @@ select {
 
 .contact-right {
     position: relative;
+}
+
+.contact-city:focus-visible {
+    background-color: #C1E698;
+}
+
+.contact-city__item {
+    background-color: #DCE9D9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #499A18;
+    padding: 24px 0px 24px 41px;
+
+}
+
+.contact-city__item:hover {
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+
+.footer {
+    background: #FFFFFF;
+}
+
+.footer-container {
+    width: 1222px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    justify-content: space-between;
+}
+
+.footer-text__item {
+    margin-right: 20px;
+}
+
+.footer-social__item {
+    margin-left: 30px;
 }
