@@ -3,6 +3,10 @@
     src: url(../fonts/Inika-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Inika-Regular';
     background: #EDF2EC;
@@ -50,6 +54,7 @@ li, a {
 
 .header-nav__item {
     margin-left: 46px;
+    color: #010201;
 }
 
 .header-nav__item:hover {
@@ -103,6 +108,11 @@ li, a {
     background: #EDF2EC;
     font-size: 16px;
     line-height: 20px;
+}
+
+.welcome-description__button:hover {
+    background: #E06733;
+    transition: 1s;
 }
 
 .about {
@@ -174,6 +184,12 @@ li, a {
     width: 161px;
     background: #EDF2EC;
     margin-right: 38px;
+}
+
+.service-button__item:hover {
+    background: #E06733;
+    color: #010201;
+    transition: 1s;
 }
 
 .service-header__button {
@@ -306,6 +322,12 @@ li, a {
     border-radius: 5px;
     padding: 12px 33px;
     margin-top: 32px;
+}
+
+.prices-right__button:hover {
+    background: #E06733;
+    color: #010201;
+    transition: 1s;
 }
 
 
@@ -503,8 +525,18 @@ select {
 
 .footer-text__item {
     margin-right: 20px;
+    color: #000000;
 }
 
 .footer-social__item {
     margin-left: 30px;
+}
+
+.footer-social {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer__rs {
+    color: #000000;
 }

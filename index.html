@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo_vector.svg" type="image/x-icon">  <!-- add favicon -->
     <link rel="stylesheet" href="./style/style.css">
     <title>Plants</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
             <div class="header-title">
-                <img src="./img/logo.png" alt="logo" class="header-title__logo">
+                <img src="./img/logo_vector.svg" alt="logo" class="header-title__logo">
                 <h1 class="header-title__text">Plants</h1>
             </div>
             <nav>
                 <ul class="header-nav">
-                    <li> <a href="" class="header-nav__item">Home</a></li>
-                    <li> <a href="" class="header-nav__item">About us</a></li>
-                    <li> <a href="" class="header-nav__item">Service</a></li>
-                    <li> <a href="" class="header-nav__item">Price</a></li>
-                    <li> <a href="" class="header-nav__item">Contacts</a></li>
+                    <li> <a href="#home" class="header-nav__item">Home</a></li>
+                    <li> <a href="#welcome" class="header-nav__item">About us</a></li>
+                    <li> <a href="#service" class="header-nav__item">Service</a></li>
+                    <li> <a href="#prices" class="header-nav__item">Price</a></li>
+                    <li> <a href="#contact" class="header-nav__item">Contacts</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="welcome">
+        <section class="welcome" id="welcome">
             <div class="welcome-img">
                 <img src="./img/leafs.png" alt="leafs" class="welcome-img__item">
             </div>
@@ -47,7 +48,7 @@
                 </div>
             </div>
         </section>
-        <section class="service">
+        <section class="service" id="service">
             <div class="service-header">
                 <h2 class="service-header__title">Service and our projects</h2>
                 <div class="service-header__button service-button">
@@ -89,10 +90,10 @@
                 </div>
             </div>
         </section>
-        <section class="prices">
+        <section class="prices" id="prices">
             <div class="prices-container">
                 <div class="prices-header">
-                    <h3 class="prices-header__title">Prices</h3>
+                    <h2 class="prices-header__title">Prices</h2>
                     <div class="prices-header__text prices-text">
                         <span class="prices-text__item">Our best <span class="prices-text__green">gardeners</span> are ready to help you</span>
                     </div>
@@ -130,8 +131,8 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
-            <h3 class="contact__title">Contact us</h3>
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Contact us</h2>
             <div class="contact-block">
                 <div class="contact-left">
                     <img src="./img/contactwoman.png" alt="contact woman" class="contact__img">
@@ -153,15 +154,15 @@
             <div class="footer-text">
                 <span class="footer-text__item" >©</span>
                 <span class="footer-text__item">2022</span>
-                <span class="footer-text__item">github</span>
+                <a href="https://github.com/miramkuanyshev/plants" class="footer-text__item">github</a>
             </div>        
-            <span class="footer__rs">Rolling Scopes School</span>
-            <div class="footer-social">
-                <img src="./img/inst.png" alt="instagram" class="footer-social__item">
-                <img src="./img/fb.png" alt="facebook" class="footer-social__item">
-                <img src="./img/tw.png" alt="twitter" class="footer-social__item">
-                <img src="./img/pinterest.png" alt="pinterest" class="footer-social__item">
-            </div>
+            <a href="https://rs.school/js-stage0/" class="footer__rs">Rolling Scopes School</a>
+            <ul class="footer-social">
+                    <li> <a href="https://instagram.com" class="footer-social__item"><img src="./img/inst.svg" alt="instagram"></a></li>
+                    <li> <a href="https://facebook.com" class="header-nav__item"><img src="./img/fb.svg" alt="facebook"></a></li>
+                    <li> <a href="https://twitter.com" class="header-nav__item"><img src="./img/tw.svg" alt="twitter"></a></li>
+                    <li> <a href="https://pinterest.com" class="header-nav__item"><img src="./img/pinterest.svg" alt="pinterest"></a></li>
+            </ul>
         </div>
     </footer>
        
